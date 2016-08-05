@@ -33,7 +33,7 @@ $(document).ready(function(){
 		for (var i = 0; i < maxGifs; i++) {
 			
 
-			var queryURL = "http://api.giphy.com/v1/gifs/translate?s=" + animal + "&api_key=dc6zaTOxFJmzC";
+			var queryURL = "https://api.giphy.com/v1/gifs/translate?s=" + animal + "&api_key=dc6zaTOxFJmzC";
 				$.ajax({url: queryURL, method: 'GET'})
 					.done(function(response) {
 					    var animalDiv = $("<div/>").addClass("animalDiv");
