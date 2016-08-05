@@ -1,0 +1,27 @@
+body {
+	background-color: #002080;
+	color: white
+
+}
+
+.animalDiv {
+	text-align: center;
+	float: left;
+	margin: 10px;
+}
+
+.animalbuttons {
+	margin: 10px 5px;
+
+}
+
+#animal-form-row {
+	color: black;
+	position: absolute;
+	top: 10px;
+
+}
+
+#animal-input{
+	color: black;
+}
